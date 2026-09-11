@@ -1,0 +1,76 @@
+p {
+    color: red;
+}
+i {
+    color:blue;
+}
+h1, h2, h3 {
+    color: green;
+}
+h1 {
+    text-align: right;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: left;
+}
+img {
+    image-rendering: optimizeSpeed;
+    width: 20%;
+}
+ul li {
+    color: red;
+}
+ol li {
+    color: blue;
+}
+.eee {
+	color: green;
+}
+.zzz {
+	color: red;
+}
+.red {
+	color: red;
+}
+.block_71_1 {
+	color: red;
+}
+.block_71-2 {
+	color: green;
+}
+h2 + p {
+	color: red;
+}
+h2 ~ p {
+	color: red;
+}
+[title] {
+    outline: 2px solid red;
+}
+
+p[title] {
+    color: red;
+}
+
+p[title="hello"] {
+    background-color: yellow;
+}
+
+a[href^="http://"] {
+    font-weight: bold;
+}
+
+a[href$=".html"] {
+    text-decoration: underline wavy green;
+}
+
+p[title~="hello"] {
+    color: blue;
+}
+
+p[class^="top-"] {
+    background-color: lightgray;
+}
